@@ -1,0 +1,45 @@
+---
+title: "Assignment 3: Data wrangling"
+author: "Your Name"
+date: "Today's date"
+output: html_document
+---
+
+**Due Sunday, October 27, 2019 @ 11:59pm through Github**
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+(1) Read in the unprocessed NMES data (`nmesUNPROC.csv`) using the `read_csv()` function. Store this data in an object called `nmesRAW`.
+
+```{r}
+#Put your code to read in the data here
+
+```
+
+(2) Add an `mscd` factor variable to the dataset that is an indicator of whether the individual has a major smoking caused disease (1 = Yes, 0 = No).  You can create this variable from the `lc5` and `chd5` variables as we did in class. (See class work 3-3 for hints.)
+
+```{r}
+#Put your code for this here
+
+```
+
+(3) Recode the categorical variables in the NMES data into factors according to the following codebook.  Once all of your recoding is complete, drop the original variables and rename the dataset `nmesPROC`.
+
+
+```{r}
+#Put your code for this here
+
+```
+
+(4) Give the code need to do the asked for recodings:
+
+```{r}
+#Put your code for this here
+```
+
