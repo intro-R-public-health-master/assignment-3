@@ -5,7 +5,7 @@ date: "Today's date"
 output: html_document
 ---
 
-**Due Sunday, October 27, 2019 @ 11:59pm through Github**
+**Due Sunday, October 25, 2020 @ 11:59pm through Github**
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -22,14 +22,14 @@ library(tidyverse)
 
 ```
 
-(2) Add an `mscd` factor variable to the dataset that is an indicator of whether the individual has a major smoking caused disease (1 = Yes, 0 = No).  You can create this variable from the `lc5` and `chd5` variables as we did in class. (See class work 3-3 for hints.)
+(2) Add an `mscd` factor variable to the dataset that is an indicator of whether the individual has a major smoking caused disease (1 = Yes, 0 = No).  You can create this variable from the `lc5` and `chd5` variables as we did in class. (See Content 3-3 for hints.)
 
 ```{r}
 #Put your code for this here
 
 ```
 
-(3) Recode the categorical variables in the NMES data into factors according to the following codebook.  Once all of your recoding is complete, drop the original variables and rename the dataset `nmesPROC`.
+(3) Recode the categorical variables in the NMES data into factors according to the following codebook.  Once all of your recoding is complete and you've dropped any intermediate variables, rename the dataset `nmesPROC`.
 
 
 ```{r}
@@ -37,7 +37,7 @@ library(tidyverse)
 
 ```
 
-(4) Give the code need to do the asked for recodings:
+(4) Give the code needed to create the following new variables and add them to your dataset:
 
 ```{r}
 #Put your code for this here
